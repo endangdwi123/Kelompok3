@@ -12,9 +12,32 @@ class Teknologi extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[
-            Text('Hasil Studi: 90% Perusahaan Global Telah Adopsi Zero Trust | Berita Teknologi'),
-          ],
+          children: [
+            Image.asset(
+              'assets/img/teknologi.png',
+              height: 200,
+            ),
+            SizedBox(
+              height: 5.0,
+            ),
+            Text(
+                'Perkuat Keamanan Data Pengguna, ChatGPT Luncurkan Opsi Privasi',
+                textAlign: TextAlign.center,),
+            const SizedBox(
+              height: 20,
+            ),
+            Text(
+                'ChatGPT mulai mengevaluasi sistem dan memperbaiki kekurangannya dengan memberikan fitur baru yang bisa membuat penggunanya semakin nyaman. Ftur baru yang dimaksud adalah opsi privasi. Dengan adanya fitur tersebut, pengguna bisa merahasiakan riwayat obrolan mereka. Dalam postingan terbarunya lewat website OpenAI pada Selasa kemarin, OpenAI mengumumkan opsi pengaturan baru yang memungkinkan penggunanya untuk me-non-aktifkan riwayat obrolan mereka. Saat di-non-aktifkan, konten yang dibagikan dengan ChatGPT beserta segala riwayat percakapan atau obrolan pengguna hanya akan dipertahankan selama 30 hari, setelah itu obrolan tersebut akan dihapus dari sistem OpenAI',
+                textAlign: TextAlign.center,),
+            SizedBox(
+              height: 40,
+            ),
+            ElevatedButton( 
+                onPressed: () { 
+                  Navigator.pop(context); 
+                }, 
+                child: Text("Kembali")) ,
+          ],  
         ),
       ),
     );

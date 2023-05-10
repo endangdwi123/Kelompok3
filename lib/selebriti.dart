@@ -1,33 +1,33 @@
 import 'package:flutter/material.dart';
 
-class Politik extends StatelessWidget {
-  const Politik({Key? key}) : super(key: key);
+class Selebriti extends StatelessWidget {
+  const Selebriti({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Berita Politik'),
+        title: const Text('Berita Selebriti'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/img/wihadi.png',
+              'assets/img/reza.jpeg',
               height: 200,
             ),
             SizedBox(
-              height: 10.0,
+              height: 5.0,
             ),
             Text(
-                'Anggota Komisi III DPR Curhat Berita Politik dan Koalisi Partai Tenggelam karena Kasus Ferdy Sambo',
+                '"Reza Arap Ngaku Alami Kisah Mirip Gading Marten, Wendy Walters Posting Ini"',
                 textAlign: TextAlign.center,),
             const SizedBox(
               height: 20,
             ),
             Text(
-                'Hal itu yang disampaikan Wihadi Wiyanto Anggota Komisi III DPR dari Fraksi Partai Gerindra dalam rapat bersama Kapolri di Gedung Parlemen, Senayan, Rabu (24/8/2022). Artikel ini telah tayang di Tribunnews.com dengan judul Anggota Komisi III DPR Curhat Berita Politik dan Koalisi Partai Tenggelam karena Kasus Ferdy Sambo',
+                'Reza Arap kembali disorot setelah mengunggah sebuah foto bersama Gading Marten. Unggahan itu memang didedikasikan untuk Gading Marten yang berulang tahun.Tampak sebuah foto menampilkan kebersamaan Reza Arap dan Gading Marten tengah bersama. Namun yang menjadi sorotan justru caption dari foto itu."Reza Arap Ngaku Alami Kisah Mirip Gading Marten, Wendy Walters Posting Ini"',
                 textAlign: TextAlign.center,),
             SizedBox(
               height: 40,
